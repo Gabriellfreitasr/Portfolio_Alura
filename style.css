@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box; 
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.titulo_destaque {
+    color:#D90D0D;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 15%;
+}
+
+.apresentacao_conteudo {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_titulo {
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.apresentacao_paragrafo {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: 30%;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #D90D0D;
+    width: 40%;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
